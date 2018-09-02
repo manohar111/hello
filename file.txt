@@ -1,0 +1,3 @@
+arr=(rammu manu siree mahi)
+echo  ${arr[*]} "will be display :"
+$#

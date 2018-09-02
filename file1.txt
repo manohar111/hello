@@ -1,0 +1,12 @@
+a=$1
+b=$2
+arr=($a $b)
+x=${arr[0]}
+y=${arr[1]}
+total=` $(($x + $y))`
+if [ $x -gt $y ]
+then
+echo "first value is greater then second value"
+else
+echo "first value is lessthen second value"
+fi

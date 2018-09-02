@@ -1,0 +1,4 @@
+n=1
+n1=2
+sum=`expr $n + $n1`
+echo "sum of the values":$sum
